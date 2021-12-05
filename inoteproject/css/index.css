@@ -1,0 +1,61 @@
+.navbar
+{
+    background-color:purple;
+}
+.navbar-brand
+{
+    color: white !important;
+    font-size:  2rem;
+}
+
+@media  (max-width: 940px) {
+    img {
+      width:200px;
+    }
+  }
+@media  (max-width: 605px) {
+    img {
+      display:none;
+    }
+  }
+#heading{
+    font-size: 4em;
+    line-height: 1.5em;
+}
+#description{
+    font-size: 1.5em;
+    line-height: 1em;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(134, 129, 129);
+}
+.btn
+{
+    background-color: #864879;
+    color: white !important;
+}
+
+#footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/ 
+  height: 40px;
+  background: #1f1627;
+  color: white;
+}
+.navbar .navbar-nav a{
+  color: white !important;
+  font-size: 1em;
+}
+
+.navbar-toggler{
+ background-color:white !important;
+}
+.boxx{
+  margin-bottom: 2em;
+}
+#au{
+  margin: auto;
+}
